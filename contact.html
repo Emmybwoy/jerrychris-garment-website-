@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | JerrysChris</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/logo.png" alt="JerryChris Garment Logo">
+            </div>
+            <!-- Hamburger icon for mobile -->
+<div class="hamburger" onclick="toggleMenu()">☰</div> 
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>                
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero contact-hero">
+        <div class="hero-content">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you! Reach out for quotes, inquiries, or feedback.</p>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+   <section class="contact-form-section">
+    <h2>Send Us a Message</h2>
+    <form class="contact-form" action="https://formspree.io/f/mldwzgld" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        
+        <!-- Extra goodies -->
+        <input type="hidden" name="_subject" value="New message from JerryChris Website">
+        <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html">
+        <input type="text" name="_gotcha" style="display:none">
+
+        <button type="submit" class="btn">Send Message</button>
+    </form>
+</section>
+
+    <!-- Contact Info Section -->
+    <section class="contact-info">
+        <h2>Our Contact Details</h2>
+        <p>Email: info@jerryschrisgarment@gmail.com</p>
+        <p>Phone: +234 7037820229, +234 7060472482
+            +234 7027109690, +234 7011914003 </p>
+        <p>Address: NO 5 mbieri street off 29b ngwa rd aba, Abia State, Nigeria</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 JerrysChris. All Rights Reserved.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

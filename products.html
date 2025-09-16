@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jerrychris - Products</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="images/logo.png" alt="Jerrychris Garment Logo" />
+      </div>
+      <!-- Hamburger icon for mobile -->
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html" class="active">Products</a></li>        
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Portfolio Hero Section -->
+  <section class="portfolio-hero">
+    <h1>Our Products</h1>
+    <p>Explore our collection of garments, custom prints, and branded products.</p>
+  </section>
+
+  <!-- Product Grid -->
+  <section class="products">
+    <div class="container">
+
+      <!-- Filter Buttons -->
+      <div class="filter-buttons">
+        <button class="filter-btn" data-filter="uniform">Uniforms</button>
+        <button class="filter-btn" data-filter="monogram">Monogramming</button>
+        <button class="filter-btn" data-filter="shirt">Shirts</button>
+        <button class="filter-btn" data-filter="polo">3D Polos</button>
+        <button class="filter-btn" data-filter="other">Others</button>
+      </div>
+      
+      <!-- Product Grid Items -->
+      <div class="product-grid">
+
+        <!-- Uniforms -->
+        <div class="product-card uniform">
+          <img src="images/uniform1.jpg" alt="School Uniform">
+        </div>
+        <div class="product-card uniform">
+          <img src="images/uniform2.jpg" alt="Corporate Uniform">
+        </div>
+        <div class="product-card uniform">
+          <img src="images/uniform3.jpg" alt="Corporate Uniform">
+        </div>
+        <div class="product-card uniform">
+          <img src="images/uniform4.jpg" alt="Corporate Uniform">
+        </div>
+        <div class="product-card uniform">
+          <img src="images/uniform5.jpg" alt="Corporate Uniform">
+        </div>
+        <div class="product-card uniform">
+          <img src="images/uniform6.jpg" alt="Corporate Uniform">
+        </div>
+        <div class="product-card uniform">
+          <img src="images/uniform7.jpg" alt="Corporate Uniform">
+        </div>
+        <div class="product-card uniform">
+          <img src="images/uniform8.jpg" alt="Corporate Uniform">
+        </div>
+
+        <!-- Monogramming -->
+        <div class="product-card monogram">
+          <img src="images/mono1.jpg" alt="Monogrammed Shirt">
+        </div>
+        <div class="product-card monogram">
+          <img src="images/mono2.jpg" alt="Embroidery Design">
+        </div>
+        <div class="product-card monogram">
+          <img src="images/mono3.jpg" alt="Embroidery Design">
+        </div>
+        <div class="product-card monogram">
+          <img src="images/mono4.jpg" alt="Embroidery Design">
+        </div>
+        <div class="product-card monogram">
+          <img src="images/mono5.jpg" alt="Embroidery Design">
+        </div>
+        <div class="product-card monogram">
+          <img src="images/mono6.jpg" alt="Embroidery Design">
+        </div>
+        <div class="product-card monogram">
+          <img src="images/mono7.jpg" alt="Embroidery Design">
+        </div>
+        <div class="product-card monogram">
+          <img src="images/mono8.jpg" alt="Embroidery Design">
+        </div>
+
+        <!-- Shirts -->
+        <div class="product-card shirt">
+          <img src="images/shirt1.jpg" alt="Plain Shirt">
+        </div>
+        <div class="product-card shirt">
+          <img src="images/shirt2.jpg" alt="Branded Shirt">
+        </div>
+        <div class="product-card shirt">
+          <img src="images/shirt3.jpg" alt="Branded Shirt">
+        </div>
+        <div class="product-card shirt">
+          <img src="images/shirt4.jpg" alt="Branded Shirt">
+        </div>
+        <div class="product-card shirt">
+          <img src="images/shirt5.jpg" alt="Branded Shirt">
+        </div>
+        <div class="product-card shirt">
+          <img src="images/shirt6.jpg" alt="Branded Shirt">
+        </div>
+        <div class="product-card shirt">
+          <img src="images/shirt7.jpg" alt="Branded Shirt">
+        </div>
+        <div class="product-card shirt">
+          <img src="images/shirt8.jpg" alt="Branded Shirt">
+        </div>
+
+
+
+        <!-- 3D Polos -->
+        <div class="product-card polo">
+          <img src="images/3D polo1.jpg" alt="3D Polo">
+        </div>
+        <div class="product-card polo">
+          <img src="images/3D polo2.jpg" alt="3D Polo">
+        </div>
+        <div class="product-card polo">
+          <img src="images/3D polo3.jpg" alt="3D Polo">
+        </div>
+        <div class="product-card polo">
+          <img src="images/3D polo4.jpg" alt="3D Polo">
+        </div>
+        <div class="product-card polo">
+          <img src="images/3D polo5.jpg" alt="3D Polo">
+        </div>
+        <div class="product-card polo">
+          <img src="images/3D polo6.jpg" alt="3D Polo">
+        </div>
+        <div class="product-card polo">
+          <img src="images/3D polo7.jpg" alt="3D Polo">
+        </div>
+        <div class="product-card polo">
+          <img src="images/3D polo8.jpg" alt="3D Polo">
+        </div>
+
+        <!-- Others -->
+        <div class="product-card other">
+          <img src="images/product2.jpg" alt="Mug">
+        </div>
+        <div class="product-card other">
+          <img src="images/product3.jpg" alt="Gift Item">
+        </div>
+        <div class="product-card other">
+          <img src="images/product4.jpg" alt="Office Supply">
+        </div>
+        <div class="product-card other">
+          <img src="images/product6.jpg" alt="Office Supply">
+        </div>
+        <div class="product-card other">
+          <img src="images/product7.jpg" alt="Office Supply">
+        </div>
+        <div class="product-card other">
+          <img src="images/product8.jpg" alt="Office Supply">
+        </div>
+        <div class="product-card other">
+          <img src="images/product9.jpg" alt="Office Supply">
+        </div>
+        <div class="product-card other">
+          <img src="images/product10.jpg" alt="Office Supply">>
+        </div>
+        <!-- Add more "other" products here -->
+      </div>
+
+    </div>
+  </section>
+
+   <!-- Recent Works Showcase -->
+      <div class="recent-works">
+        <h2>Our Recent Works</h2>
+        <div class="recent-slider">
+        <div class="slide"><img src="images/recent1.jpg" alt="Recent Work 1"></div>
+        <div class="slide"><img src="images/recent2.jpg" alt="Recent Work 2"></div>
+        <div class="slide"><img src="images/recent3.jpg" alt="Recent Work 3"></div>
+        </div>
+      </div>
+
+  <!-- Call-to-Action Banner -->
+  <section class="cta-banner">
+    <div class="container">
+      <h2>Want a Custom Design?</h2>
+      <p>Contact us today to get a tailored quote for your garments, prints, and branded products.</p>
+      <a href="contact.html" class="btn">Request a Quote</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Jerrychris. All Rights Reserved.</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
